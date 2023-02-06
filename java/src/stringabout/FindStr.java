@@ -1,5 +1,6 @@
 package stringabout;
 
+//lintcode 13题
 public class FindStr {
         /**
          * 暴力法
