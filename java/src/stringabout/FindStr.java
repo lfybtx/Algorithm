@@ -87,7 +87,16 @@ public class FindStr {
     public static void main(String[] args) {
         String a = "abcdessewsacb";
         String c = "acb";
+
+        String s1 = "";
+        String s2 = "";
+
+        String c1 = "abc";
+        String c2 = "";
+
         System.out.println(strStr(a, c));
+        System.out.println(strStr(s1, s2));
+        System.out.println(strStr(c1, c2));
     }
 
 
