@@ -73,6 +73,7 @@ public class FindStr {
             sum_diff -= source.charAt(sub_start++);
             sum_diff += source.charAt(left);
 
+
             //滑动窗口判断
             if (sum_diff == 0 && source.charAt(sub_start) == target.charAt(0)
                     && (source.substring(sub_start, sub_start + target.length()).equals(target))
