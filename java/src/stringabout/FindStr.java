@@ -97,10 +97,14 @@ public class FindStr {
         String d1 = "";
         String d2 = "dad";
 
+        String e1 = "abcdess";
+        String e2 = "cde";
+
         System.out.println(strStr(a, c));
         System.out.println(strStr(s1, s2));
         System.out.println(strStr(c1, c2));
         System.out.println(strStr(d1, d2));
+        System.out.println(strStr(e1, e2));
     }
 
 
