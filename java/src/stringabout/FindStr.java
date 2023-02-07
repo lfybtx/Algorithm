@@ -37,7 +37,7 @@ public class FindStr {
             return 0;
         }
 
-        //find the first letter of target
+        //找到第一个字母
         int start = 0;
         for (start = 0; start < source.length(); start++) {
             if (source.charAt(start) == target.charAt(0)) break;
@@ -47,7 +47,7 @@ public class FindStr {
             return -1;
         }
 
-        //calculate sum_diff from source and target by using left and right pointers.
+        //计算sum_diff
         int left = start;
         int right = 0;
 
@@ -94,9 +94,17 @@ public class FindStr {
         String c1 = "abc";
         String c2 = "";
 
+        String d1 = "";
+        String d2 = "dad";
+
+        String e1 = "abcdess";
+        String e2 = "cde";
+
         System.out.println(strStr(a, c));
         System.out.println(strStr(s1, s2));
         System.out.println(strStr(c1, c2));
+        System.out.println(strStr(d1, d2));
+        System.out.println(strStr(e1, e2));
     }
 
 
